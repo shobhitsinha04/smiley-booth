@@ -14,7 +14,7 @@ Smiley Booth is a smart photobooth application that automatically captures photo
 
 ## Installation
 
-Use python 3.12.2
+Use python 3.12 or python 3.11
 
 ```bash
 # Install required packages
