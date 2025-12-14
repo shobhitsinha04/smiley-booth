@@ -52,7 +52,7 @@ The main application file that ties everything together. It handles:
 - Saving captured photos
 
 ### detection.py
-Handles all face and smile detection using MediaPipe Face Mesh, which provides 468 facial landmark points.
+Handles all face and smile detection using MediaPipe Face Mesh, which provides facial landmark points.
 
 **Smile detection algorithm:**
 
@@ -112,7 +112,7 @@ Contains 15 image filter implementations:
 ```
 
 **Auto-capture process:**
-1. MediaPipe detects face and extracts 468 landmarks
+1. MediaPipe detects face and extracts landmarks
 2. System checks if face center is within 12% of frame center
 3. If centered, mouth landmarks are analyzed for smile
 4. Smile must be detected for 80 consecutive frames (~3 seconds)
@@ -125,7 +125,7 @@ Contains 15 image filter implementations:
 
 **Libraries used:**
 - OpenCV - Camera capture, image processing, drawing
-- MediaPipe - Face mesh detection with 468 landmarks
+- MediaPipe - Face mesh detection with landmarks
 - NumPy - Array operations for filter effects
 
 **Color spaces:**
